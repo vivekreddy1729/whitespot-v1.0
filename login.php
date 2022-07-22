@@ -42,12 +42,12 @@ if (isset($_POST['submit-login'])){
                   //$mail->isSMTP();                                            // Send using SMTP
                   $mail->Host = 'smtp1.gmail.com';                    // Set the SMTP server to send through
                   $mail->SMTPAuth = true;                                   // Enable SMTP authentication
-                  $mail->Username = 'fantasybennett@gmail.com';                     // SMTP username
-                  $mail->Password = 'ammananna1729';                               // SMTP password
+                  $mail->Username = 'xyz@gmail.com';                     // SMTP username
+                  $mail->Password = 'yourpassword';                               // SMTP password
                   $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         // Enable TLS encryption; 
                   $mail->Port = 465; 
 
-                  $mail->setFrom('fantasybennett@gmail.com', 'Shortcuts');
+                  $mail->setFrom('xyz@gmail.com', 'Whitespot');
                   $mail->addAddress($email);               // Name is optional
 
                   $mail->isHTML(true);                                  // Set email format to HTML
