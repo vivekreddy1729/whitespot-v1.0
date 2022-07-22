@@ -76,7 +76,7 @@ if (isset($_POST['submit-register'])){
                       $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         // Enable TLS encryption; 
                       $mail->Port = 465; 
 
-                      $mail->setFrom('xyz@gmail.com', 'Shortcuts');
+                      $mail->setFrom('xyz@gmail.com', 'Whitespot');
                       $mail->addAddress($email);               // Name is optional
 
                       $mail->isHTML(true);                                  // Set email format to HTML
